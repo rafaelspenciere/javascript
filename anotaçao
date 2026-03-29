@@ -1,0 +1,81 @@
+5 + 2 = 7 // sinal {+} serve para somar
+5 - 2 = 3 // sinal {-} serve para subitrair 
+5 * 2 = 10 // sinal {*} serve para multiplicar
+5 / 2 = 2.5 // sinal {/} serve para dividir
+5 % 2 = 1 // sinal {%} serve para pegar o resto da divisao
+5 ** 2 = 25 // sinal {**} serve para elevar o numero para um expoente
+
+var n = 3
+n = n + 4   7    n += 4
+n = n - 5   2    n -= 5
+n = n * 4   8    n *= 4
+n = n / 2   4    n /= 2
+n = n ** 2  16   n **= 2
+n = n % 5   1    n %= 5
+
+Precedência
+
+1 = ()
+2 = **
+3 = * / %
+4 = + -
+
+Operadores Relacionais
+
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+{=== identico}
+
+5 > 2   true
+7 < 4   false
+8 >= 8  true
+9 <= 7  false
+5 == 5  true
+4 != 4  false
+
+Operadores Logicos
+
+                          true  >  false
+        1°!  negaçao {nao}
+                          false >  true
+
+        2°true  && conjunçao {e}  true  > true
+          true                    false > false
+          false                   true  > false
+          false                   false > false
+
+        3°true  || disjunçao {ou}  true  > true
+          true                     false > true
+          false                    true  > true
+          false                    false > false
+
+Operador Ternario
+
+teste ? true : false
+media >= 7.0 ? "aprovado" : "reprovado"
+
+// Number.parseFloat(n) string para numeros reais
+// Number.parseInt(n) string para numeros inteiros
+// String(n) transformar em string
+// n.toString() oq qureo jogar para uma string
+
+// (number + number) para adiçao
+// (string + string) para concatenaçao
+
+// nome.length contas quantas letras ten ba string
+// nome.toUpperCase() deixa toda a string em maiusculas
+// nome.toLowerCase() deixa toda a string em minusculas
+
+/*
+para numeros
+var n1 = 1545.5
+n1.toFixed(2) adiciona quantas casas decimais vc quiser
+1545.50
+n1.toFixed(2).replace('.', ',') troca algum objeto que vc queira q nem o . para ,
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) transforma em moeda Brasileira o REAL
+R$ 1,545.50
+*/
