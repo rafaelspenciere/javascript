@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('Qual e seu nome?')
+        document.writeln(`Ola, ${nome}! Seu nome tem ${nome.length} letras. <br/>`) // nome.length contas quantas letras ten ba string
+        document.writeln(`Seu nome em maiusculas e ${nome.toUpperCase()} <br/>`) // nome.toUpperCase() deixa toda a string em maiusculas
+        document.writeln(`Seu nome em minusculas e ${nome.toLowerCase()} <br/>`) // nome.toLowerCase() deixa toda a string em minusculas
+
+        /*
+        para numeros
+        var n1 = 1545.5
+        n1.toFixed(2) adiciona quantas casas decimais vc quiser
+        1545.50
+        n1.toFixed(2).replace('.', ',') troca algum objeto que vc queira q nem o . para ,
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) transforma em moeda Brasileira o REAL
+        R$ 1,545.50
+        */
+    </script>
+</body>
+</html>
